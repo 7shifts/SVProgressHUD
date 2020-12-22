@@ -7,7 +7,7 @@ let package = Package(
     .iOS(.v8),
   ],
   products: [
-    .library(name: "SVProgressHUD", targets: ["SVProgressHUD"])
+    .library(name: "SVProgressHUD", type: .dynamic, targets: ["SVProgressHUD"])
   ],
   targets: [
     .target(
